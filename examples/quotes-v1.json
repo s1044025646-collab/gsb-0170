@@ -1,0 +1,8 @@
+{
+  "valuationDate": "2026-09-30",
+  "quotes": [
+    { "isin": "ZERO001", "cleanPrice": 97.04455335485082, "accrued": 0 },
+    { "isin": "CPN0002", "cleanPrice": 101.8252926, "accrued": 0 },
+    { "isin": "CPN0003", "cleanPrice": 104.2738256, "accrued": 1.25 }
+  ]
+}

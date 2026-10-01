@@ -1,0 +1,24 @@
+[
+  {
+    "isin": "ZERO001",
+    "valuationDate": "2026-09-30",
+    "cashFlows": [{ "date": "2027-09-30", "amount": 100 }]
+  },
+  {
+    "isin": "CPN0002",
+    "valuationDate": "2026-09-30",
+    "cashFlows": [
+      { "date": "2027-09-30", "amount": 4 },
+      { "date": "2028-09-30", "amount": 104 }
+    ]
+  },
+  {
+    "isin": "CPN0003",
+    "valuationDate": "2026-09-30",
+    "cashFlows": [
+      { "date": "2027-09-30", "amount": 5 },
+      { "date": "2028-09-30", "amount": 5 },
+      { "date": "2029-09-30", "amount": 105 }
+    ]
+  }
+]

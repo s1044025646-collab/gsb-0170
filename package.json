@@ -1,0 +1,23 @@
+{
+  "name": "curve-bootstrap-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Teaching-only bond discount-curve bootstrap and rate-sensitivity backend (single currency, fixed cash flows).",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --import tsx --test test/*.test.ts",
+    "demo": "tsx src/demo.ts",
+    "start": "tsx src/server-main.ts",
+    "cli": "tsx src/cli/index.ts"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
