@@ -1,0 +1,20 @@
+{
+  "name": "bond-curve-bootstrap",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Teaching-only single-currency bond discount curve bootstrapping and rate sensitivity backend (API + CLI).",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "demo": "node --no-warnings src/demo/demo.ts",
+    "start": "node --no-warnings src/api/server.ts",
+    "test": "node --no-warnings --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.10.0"
+  }
+}
